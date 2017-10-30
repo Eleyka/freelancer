@@ -1,3 +1,288 @@
 /*
  * Estilos de tu proyecto
  */
+ *{
+    margin: 0;
+    padding: 0;
+  }
+  /*Alineo mi texto en el centro*/
+body{
+    text-align: center;
+    }
+header{
+    width: 100%;
+    overflow: hidden;/*para desplazar algunos elementos de izquierda y derecha*/
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    z-index: 2;
+   }
+.wrapper{
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+  overflow: hidden;/*para desplazar algunos elementos de izquierda y derecha*/
+  }
+header .logo{
+   color: #f2f2f2;
+   font-size:35px;
+   line-height: 100px;
+   float: left;
+   padding-left: 150px;
+   font-weight: bold;
+  }
+header nav{
+   float: right;
+   line-height: 100px;
+   padding-right: 150px; 
+  }
+header nav a{
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 10px;
+    line-height: normal;
+    font-size: 15px;
+    font-weight: bold;
+  }
+header nav a:hover{
+   color: #18bc9c;
+  }
+header nav a:active{
+    color: #eff3f2;
+    background-color: #18bc9c;
+    padding: 10px;
+    border-radius: 5px;
+   }
+.header2{
+     position: fixed;
+     height: 60px;   
+   }
+   .header2, .logo{
+    line-height: 30px;
+    font-size: 15px;
+   margin-top:-13px;
+    font-weight: bold;
+   }
+   .header2, nav{
+    line-height: 30px;
+    margin-top:-13px;
+   }
+  /*Elijo el color de fondo de mis secciones*/
+  header, footer{
+    background: #2c3e50;
+  }
+  .start, .about{
+    background: #18bc9c; 
+  }
+  /*le doy un relleno a mi figura*/
+  .start-f1{
+    padding: 100px 0 50px 0;
+  }
+  /*Modifico los estilos de mi a*/
+  .text-1{
+    text-transform: uppercase;
+    font-size: 80px;
+    font-weight:700;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    color: white;
+  }
+  .text {
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    font-weight:400;
+    color: white;
+    padding: 50px 0 100px 0;
+  }
+  h2{
+    font-size: 50px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:900;
+    color: #2c3e50;
+    padding: 70px 0 5px 0;
+  }
+  .portfolio-img{
+    width: 300px;
+  }
+  .img, .footer{
+    display: inline-block;
+    padding: 15px;
+    margin-top: 5px;
+    box-sizing: border-box;
+     color: white;
+    }
+    .text-h2{
+      color: white;
+    }
+    .about{
+      color: white;
+      font-size: 20px;
+      font-family: 'Montserrat', sans-serif;
+      height: 700px;
+    }
+    .text-p{
+      text-align: left;
+      width: 370px;
+      line-height: 35px;
+      display: inline-block;
+      margin-top: 5px;
+      box-sizing: border-box;
+      margin-bottom: 95px;
+    }
+    .btn{
+       background-color:#18bc9c;
+      border-radius: 5px;
+      border: 2px solid white;
+      color: white;
+      font-family: inherit;
+      padding: 15px;
+      text-decoration:none;  
+    }
+    .btn:hover{
+      background-color:#fff;
+      color: #18bc9c;
+    }
+    .Contactme{
+      height: 900px;
+      background: #fff;
+    }
+    .text-cp {
+      text-align: left;
+      width: 800px;
+      line-height: 35px;
+      display: inline-block;
+      margin: 15px;
+      box-sizing: border-box;
+      margin-bottom: 95px;
+    } 
+  .container{
+    max-width: 800px;
+    height: auto;
+    background-color: #fff;
+    margin: 5% auto;
+    padding-bottom: 1rem;
+  }
+  .form_reg{
+  padding: 0.2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  }
+  .btn_form{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1rem;
+  }
+  .input, .btn_send{
+    background-color: white;
+    padding: 40px 0 40px 0; /*anchura*/
+    border: none;
+    border-bottom: solid #f5efef 0.5px;
+    transition: all .5s;
+    font-size: 20px;
+  }  
+ .btn_send{
+      width: 100px;
+      background-color:#18bc9c;
+      border-radius: 5px;
+      border: 2px solid white;
+      color: white;
+      font-family: inherit;
+      padding: 15px;
+      text-decoration:none; 
+      margin: 0 90% 0 1%;
+      font-family: 'Lato', sans-serif;
+      }
+    .btn_send:hover{
+      background-color: #0c8b72;
+    }
+    .text-Contactme{ 
+      color:#212529;
+      font-size: 50px;
+      padding-bottom: 10px;
+     }
+     .footer{
+      display: inline-block;
+      box-sizing: border-box;
+       color: white;
+       width:400px;
+       font-family: 'Montserrat', sans-serif;
+       vertical-align:top;/*alineo de manera uniforme*/
+      }
+ .title{
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 30px;
+      }
+  .icon{
+    width: 1.28571429em;/*permite que los iconos sean de la misma dimencion*/
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 50%;
+    border-color: white;
+    border: 2px solid white;
+  }
+  .footer_p{
+      font-size: 18px;
+      line-height: 30px;
+      padding-top: 30px;
+  }
+  .p_footer{
+      color: white;
+      padding: 50px 0 30px 0;
+      font-family: 'Montserrat', sans-serif;
+  }
+  .link{
+       color:#18bc9c;
+       text-decoration: none; 
+  }
+  .link:hover{
+       text-decoration: underline; 
+  }
+ /*Para la separación de la raya y la estrella para sección 1 y sección 3*/ 
+  .star{
+      display: inline-block;
+      position: relative;
+      color: white;
+      font-size: 35px;
+      z-index: 1;
+  }
+  .star::after, .star::before {
+      border-bottom: 5px solid #fff;
+      bottom: 50%;
+      content: "";
+      margin: 0 23px;
+      position: absolute;
+      width: 90px;
+  }
+  .star::before {
+      left: -120px;
+  }
+   
+  .star::after {
+      right: -120px;
+  }
+ /*Para la separación de la raya y la estrella para sección 2 y sección 4*/ 
+  .star_black{
+      display: inline-block;
+      position: relative;
+      color: #2c3e50;
+      font-size: 35px;
+      z-index: 1;
+  }
+  .star_black::after, .star_black::before {
+      border-bottom: 5px solid #2c3e50;
+      bottom: 50%;
+      content: "";
+      margin: 0 23px;
+      position: absolute;
+      width: 90px;
+  }
+  .star_black::before {
+      left: -120px;
+  }
+  .star_black::after {
+      right: -120px;
+  }
