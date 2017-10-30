@@ -6,16 +6,12 @@
 
 ***
 
-Para completar este reto, hemos creado este repositorio boilerplate (plantilla
-inicial) con todos los recursos que necesitas. Esto incluye imágenes y
-estructura de carpetas y archivos donde colocarás tu código.
-
 ## Flujo de trabajo
 
-1. Debes realizar un [**fork**](https://gist.github.com/ivandevp/1de47ae69a5e139a6622d78c882e1f74)
+1. Se realizo un [**fork**](https://gist.github.com/ivandevp/1de47ae69a5e139a6622d78c882e1f74)
    de este repositorio.
 
-2. Luego deberás **clonar** tu fork en tu máquina. Recuerda que el comando a usar
+2. Luego se **clono** mi fork en mi máquina. Se uso el siguiente comando.
    es `git clone` y su estructura normalmente se ve así:
 
    ```bash
@@ -24,57 +20,26 @@ estructura de carpetas y archivos donde colocarás tu código.
 
 ## Objetivo
 
-El reto consiste en replicar el sitio de **Freelancer**, este será el resultado
-a lograr:
+Se replico el sitio de **Freelancer**, donde resultado
+es bien parecido al original:
 
 ![Freelancer Website](docs/fullpage.png)
 
-## Consideraciones
+## Pasos
 
-* Encontrarás un archivo base `index.html` en el cual deberás escribir la
-  estructura de tu proyecto y enlazar tus archivos de estilos (CSS).
+* Se encontro un archivo`index.html` en el cual se escribio la estructura semantica de html y se enlazo con el archivo css, la carpeta icons e images, donde se encontro todas las imàgenes necesarias para realizar dicho proyecto.
 
-* En la carpeta `css` tendrás un archivo base `main.css` donde agregarás los
-  estilos necesarios para tu proyecto.
+* En la carpeta `css` se encuentra mi archivo base `main.css` donde agrege los estilos necesarios para el proyecto.
 
-* Dentro de la carpeta `assets` se encuentra la carpeta `images` donde
-  encontrarás todas las imágenes necesarias para completar tu proyecto.
+* Se realizo su respectivo archivo `README.md` donde explico a detalle, cual fueron los pasos a seguir para el proyecto.
 
-* Deberás **actualizar el archivo `README.md`** explicando el contenido de tu
-  repositorio.
+* Se uso 2 tipografías: `Montserrat` y `Lato`.
 
-* Esta web utiliza 2 tipografías: `Montserrat` y `Lato`.
+* Los colores se obtuvo con  Eye Dropper, para el fondo, colores de texto, iconos entre otros.
 
-* La paleta de colores puedes obtenerla inspeccionado el sitio original, pero
-  para ganar tiempo, puedes usar los siguientes: `#2c3e50`, `#18bc9c`,
-  `#212529`.
+* Se descargo los íconos de redes sociales en [Font Awesome](http://fontawesome.io/).
 
-* Los íconos de redes sociales puedes obtenerlos de [Font Awesome](http://fontawesome.io/).
+* En la secciòn 4 de contact me se realizo 4 formularios y se realizòn un boton llamado send.
 
-* Para este reto, encontrarás ciertas cosas que probablemente aun no has visto
-  en clase (formularios). No te preocupes, estamos seguros que lo afrontarás con
-  éxito, de igual forma aquí unos tips:
+* El subrayado que incluye la estrella en las diversas secciones del sitio, se relizo con hr y se descargo un icono de icomoon
 
-  - Para el formulario, revisa las etiquetas como `form`, `input`, `button`.
-
-* El subrayado que incluye la estrella en las diversas secciones del sitio, en
-  la web original se hace con un ícono y pseudoelementos (`:after`, `:before`),
-  es un reto entretenido, sin embargo, no trates de enfocarte en esa parte desde
-  un inicio ya que no es el objetivo principal del reto :)
-
-* Puedes ver el [sitio original](https://blackrockdigital.github.io/startbootstrap-freelancer/)
-  para que te des una idea de como debe quedar.
-
-  > Nota: El sitio original tiene ciertos efectos y funcionalidades que
-están fuera del alcance de este reto. Enfócate en obtener la maquetación
-lo más parecido posible, usando lo aprendido en clase ;)
-
-## A tener en cuenta
-
-Este reto será evaluado sobre lo siguiente:
-
-* Pixel perfect (replicar el diseño con exactitud)
-* Nombramiento de clases, id, etc
-* Indentación
-* Archivo `README.md` actualizado y correctamente redactado
-* Uso de comentarios para hacer tu código más legible
